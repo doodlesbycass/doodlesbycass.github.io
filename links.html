@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Doodles By Cass</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/repeatingElements/base.css">
+    <style>
+        body{
+            text-align: center;
+            background: url("linksbg.jpg") center/cover no-repeat fixed;
+            padding: 0;
+            margin: 5px;
+        }
+        #bg{
+            padding: 15px;
+            background-color: rgba(88, 29, 29, .75);
+            /*background-color: rgba(255,255,255,.85);*/
+            width: 100%;
+            min-height: calc(100vh - 10px);
+            background-blend-mode: lighten;
+        }
+        h1{margin: 0 0 15px 0;}
+        #linkHeader{
+            display: inline-block;
+            margin: 20px auto 20px auto;
+            padding: 25px;
+            max-width: min(calc(100% - 30px), 800px);
+            background-color: rgba(255,255,255,.85);
+            border-radius: 100px;
+        }
+        a.linkPage {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            background-color: white;
+            border: 2px solid var(--accent2);
+            border-radius: 10px;
+            display: block;
+            width: 100%;
+            max-width: 800px;
+            margin: 10px auto 10px auto;
+            padding: 13px;
+            font-weight: 600;
+        }
+        a.linkPage:hover {
+            border-color: var(--accent2);
+            border-width: 5px;
+            padding: 10px;
+            font-weight: 700;
+        }
+        .section {
+            background-color: white;
+            padding: 5px 10px;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto 20px auto;
+            border-radius: 10px;
+            border: 2px solid var(--accent2);
+        }
+        #comingSoon {
+            background-color: rgba(255,255,255,.85);
+        }
+        h2 {margin: 15px 0}
+
+    </style>
+</head>
+<body>
+    <div id="bg">
+        <div id="linkHeader">
+            <h1>Doodles By Cass</h1>
+            <b id="subtext">@doodles.by.cass</b>
+        </div>
+        <a class="linkPage" href="https://www.instagram.com/doodles.by.cass/">Instagram</a>
+        <div id="comingSoon" class="section">
+            <h2>Coming Soon</h2>
+            <a class="linkPage" href="">Website</a>
+            <a class="linkPage" href="">Portfolio</a>
+            <a class="linkPage" href="">Tutorials & Guides</a>
+        </div>
+        <div class="section">
+            <h2>Contact</h2>
+            <p>
+                <b>Email:</b> <a href="mailto:doodles.by.cass@gmail.com">doodles.by.cass@gmail.com</a><br>
+                <b>Instagram:</b> <a href="https://www.instagram.com/doodles.by.cass/">@doodles.by.cass</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
+:root {
+    --color1: #898989;
+    --color2: #bebebe;
+    --color3: #dddddd;
+    --color4: #f3f3f3;
+    --color5: #ffffff;
+    --accent1: #3f1515;
+    --accent2: #581d1d;
+    --accent3: #712626;
+    --accent4: #8a3030;
+    --accent5: #a33535;
+}
+
+html{font-size: max(calc(16px + (20 - 16) * ((100vw - 320px)/(1440 - 320))), 100%);}
+h1 {font-size: 3.052rem;}
+h2 {font-size: 2.441rem;}
+h3 {font-size: 1.953rem;}
+h4 {font-size: 1.563rem;}
+h5 {font-size: 1.25rem;}
+body {1rem;}
+
+h1, h2, h3 {
+    line-height: 1;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+a {
+    color: var(--accent3);
+    font-weight: 600;
+    text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+a:visited {color: var(--accent2);}
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
