@@ -21,12 +21,13 @@ h4 {font-size: 1.563rem;}
 h5 {font-size: 1.25rem;}
 body {1rem;}
 
+body{margin: 0;}
 h1, h2, h3 {
     line-height: 1;
     text-align: center;
     font-family: 'Dancing Script', cursive;
 }
-
+h1{margin:0;}
 a {
     color: var(--accent3);
     font-weight: 600;
@@ -40,3 +41,55 @@ a:visited {color: var(--accent2);}
     box-sizing: border-box;
 }
 
+
+/* HEADER */
+    #header {
+        background-color: var(--accent3);
+        padding: 5px;
+        vertical-align: center;
+    }
+    #header h1 {
+        text-align: left;
+        font-size: 1.25em;
+        line-height: 1;
+        display: inline-block;
+        color: white;
+        margin: 10px;
+    }
+
+    @media only screen and (min-width: 601px) {
+        #nav {float: right;}
+        #navIcon {display: none;}
+        #nav a, #nav a:hover {
+            display: inline-block;
+            margin: 10px;
+            color: white;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        #navIcon img{
+            display: inline-block;
+            height: 1em;
+            margin: 10px;
+        }
+        #navIcon {float: right; height: calc(1em + 20px);}
+        #navIcon:hover {background-color: var(--accent4);}
+        #nav{margin: 5px 0 0 auto; position: absolute; right:0; padding:5px 0;background-color: var(--color2); display: none;}
+        #nav a {
+            text-align: center;
+            display: block;
+            padding: 5px 10px;
+            color: black;
+        }
+        #nav a:hover {
+            background-color: var(--color1);
+            text-decoration: none;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        #nav{
+            width: 100%;
+            left:0; 
+        }
+        
+    }
