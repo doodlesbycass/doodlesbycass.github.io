@@ -1,5 +1,5 @@
 document.write (`
-    <div id="header" onchange="checkNav">
+    <div id="header">
         <a href="/index.html"><h1>Doodles By Cass</h1></a>
         <div id="navIcon" onclick="showNav();"><img id="navIcon" src="/repeatingElements/navIcon.svg" alt="navigation icon"></div>
         <div id="nav">
@@ -8,6 +8,7 @@ document.write (`
         </div>
     </div>
     <script>
+        document.addEventListener("resize", checkNav);
         function showNav() {
             var nav;
             nav = document.getElementById("nav");
