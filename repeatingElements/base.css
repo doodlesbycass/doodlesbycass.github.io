@@ -106,6 +106,7 @@ a:visited {color: var(--accent2);}
         #footerLogo{display: none;}
         #footer{text-align: center;}
     }
+    #footer img{height: 1em;}
     
 /* MAIN */
     #main {min-height: calc(100vh - ((1em + 30px) + (3em + 30px))); background-color: green;}
