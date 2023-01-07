@@ -9,7 +9,7 @@ document.write (`
     </div>
     <script>
         document.getElementById("navIcon").addEventListener("click", showNav);
-        document.getElementById("header").addEventListener("resize", checkNav);
+        document.body.addEventListener("resize", checkNav);
         function showNav() {
             var nav;
             nav = document.getElementById("nav");
@@ -18,7 +18,7 @@ document.write (`
         function checkNav() {
             var navIcon;
             var nav;
-            header = document.getElementById("header");
+            nav = document.getElementById("nav");
             navIcon = document.getElementById("navIcon");
             if (navIcon.style.display !== "block") {nav.style.display = "block";}
         }
