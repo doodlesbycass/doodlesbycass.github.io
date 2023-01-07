@@ -20,7 +20,7 @@ document.write (`
             var nav;
             nav = document.getElementById("nav");
             navIcon = document.getElementById("navIcon");
-            if (navIcon.style.display !== "block") {nav.style.display = "block";}
+            if (navIcon.style.display !== "inline-block") {nav.style.display = "block";}
         }
     </script>
 `);
