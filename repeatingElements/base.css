@@ -97,6 +97,15 @@ a:visited {color: var(--accent2);}
     }
     #footer a {color: white;}
     #footer div {padding: 5px 10px;}
+    #footer h1 {font-size: 2.5em;}
+    @media only screen and (min-width: 601px) {
+        #footerLogo{float: left;}
+        #footer{text-align: right;}
+    }
+    @media only screen and (max-width: 600px) {
+        #footerLogo{display: none;}
+        #footer{text-align: center;}
+    }
     
 /* MAIN */
-    #main {min-height: calc(100vh - ((1em + 30px))); background-color: green;}
+    #main {min-height: calc(100vh - ((1em + 30px) + (3em + 30px))); background-color: green;}
