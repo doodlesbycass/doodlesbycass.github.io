@@ -1,11 +1,5 @@
-#banner {
-    background: var(--bgimg) center/cover no-repeat;
-}
-#bannerHalf {
-    background-color: rgba(113, 38, 38, .90);
-    width: 50%;
-    padding: 20px;
-}
+#banner {background: var(--bgimg) center/cover no-repeat}
+#bannerHalf {background-color: rgba(113, 38, 38, .90);width: 50%; padding: 20px;}
 #bannerHalf div {
     background-color: rgba(255,255,255,.85);
     margin: 0;
@@ -13,6 +7,26 @@
     line-height: 1;
     text-align: justify;
 }
-@media only screen and (max-width: 600px) {
-    #bannerHalf{width:100%;}
+@media only screen and (max-width: 600px) {#bannerHalf{width:100%;}}
+
+#port {
+    padding: 20px;
+    text-align: center;
 }
+#port div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+#port img {
+    width: 25%;
+}
+#port a {
+    display: inline-block;
+    background-color: var(--accent3);
+    color: white;
+    padding: 15px;
+    margin: 20px;
+}
+#port a:hover {background-color: var(--accent4);text-decoration: none;}
