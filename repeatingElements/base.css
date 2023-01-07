@@ -75,7 +75,7 @@ a:visited {color: var(--accent2);}
         }
         #navIcon {float: right; height: calc(1em + 20px);}
         #navIcon:hover {background-color: var(--accent4);}
-        #nav{margin: 5px 0 0 auto; position: absolute; right:0; padding:5px 0;background-color: var(--color2); display: none;}
+        #nav{margin: 0 0 0 auto; position: absolute; right:0; padding:5px 0;background-color: var(--color2); display: none;}
         #nav a {
             text-align: center;
             display: block;
