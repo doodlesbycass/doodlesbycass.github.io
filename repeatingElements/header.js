@@ -8,7 +8,7 @@ document.write (`
         </div>
     </div>
     <script>
-        document.addEventListener("resize", checkNav);
+        window.addEventListener("resize", checkNav);
         function showNav() {
             var nav;
             nav = document.getElementById("nav");
