@@ -3,8 +3,8 @@ document.write (`
         <a href="/index.html"><h1>Doodles By Cass</h1></a>
         <div id="navIcon"><img id="navIcon" src="/repeatingElements/navIcon.svg" alt="navigation icon"></div>
         <div id="nav">
-            <a href="/shop.html">Shop</a>
             <a href="/portfolio.html">Portfolio</a>
+            <a href="/about.html">About</a>
         </div>
     </div>
     <script>
