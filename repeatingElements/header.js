@@ -19,7 +19,7 @@ document.write (`
             var nav;
             header = document.getElementById("header");
             navIcon = document.getElementById("navIcon");
-            if (navIcon.style.display === "none") {nav.style.display = "block";}
+            if (navIcon.style.display !== "block") {nav.style.display = "block";}
         }
     </script>
 `);
