@@ -100,9 +100,10 @@ a:visited {color: var(--accent2);}
     }
     #footer a {color: white;}
     #footer div {padding: 5px 10px;}
-    #footer h1 {font-size: 2.5em;}
+    #footer h1 {font-size: 1.25em; text-align: left;}
+    #footer i {font-size: 1em; display: block; padding-top: 5px;}
     @media only screen and (min-width: 601px) {
-        #footerLogo{float: left;}
+        #footerLogo{float: left; text-align: left; line-height: 1;}
         #footer{text-align: right;}
         #footer img {padding-left: 5px;}
     }
