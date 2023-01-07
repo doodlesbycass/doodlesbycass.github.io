@@ -9,7 +9,7 @@ document.write (`
     </div>
     <script>
         document.getElementById("navIcon").addEventListener("click", showNav);
-        document.body.addEventListener("resize", checkNav);
+        window.addEventListener("resize", checkNav);
         function showNav() {
             var nav;
             nav = document.getElementById("nav");
