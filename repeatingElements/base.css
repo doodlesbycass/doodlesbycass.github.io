@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
 :root {
     --bgimg: url("repeatingElements/background.jpg");
-    --color1: #898989;
-    --color2: #bebebe;
-    --color3: #dddddd;
-    --color4: #f3f3f3;
-    --color5: #ffffff;
+    --gray1: #898989;
+    --gray2: #bebebe;
+    --gray3: #dddddd;
+    --gray4: #f3f3f3;
+    --gray5: #ffffff;
     --accent1: #3f1515;
     --accent2: #581d1d;
     --accent3: #712626;
@@ -33,6 +33,11 @@ a:visited {color: var(--accent2);}
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
 }
+.clearboth::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
 /* Layout */
     body {margin:0;display: flex;flex-direction: column;min-height: 100vh;}
     #main {align-self: stretch;flex-grow: 1;}
@@ -56,11 +61,11 @@ a:visited {color: var(--accent2);}
         #navIcon img{display: inline-block;height: 1rem;margin: 10px;}
         #navIcon {float: right; height: calc(1rem + 20px);}
         #navIcon:hover {background-color: var(--accent4);}
-        #nav{margin: 0 0 0 auto; position: absolute; right:0; padding:5px 0;background-color: var(--color2); display: none;}
+        #nav{margin: 0 0 0 auto; position: absolute; right:0; padding:5px 0;background-color: var(--gray2); display: none;}
         #nav a {text-align: center;display: block;padding: 5px 10px;color: black;}
-        #nav a:hover {background-color: var(--color1);text-decoration: none;}
+        #nav a:hover {background-color: var(--gray1);text-decoration: none;}
     }
-    @media only screen and (max-width: 400px) {#nav{width: 100%;left:0; }}
+    @media only screen and (max-width: 400px) {#nav{width: 100%;left:0; position: relative;}}
     
 /* FOOTER */
     #footer {
