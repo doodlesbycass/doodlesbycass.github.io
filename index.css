@@ -54,7 +54,7 @@
         overflow: auto;
     }
     #about{width:50%; max-width: 600px; margin: auto;}
-    #section{display: flex; flex-direction: row; height: 400px;justify-content: space-evenly;}
+    #section{display: flex; flex-direction: row;justify-content: space-evenly;}
 }
 #instagram{border: 20px solid var(--gray3); background-color: var(--gray3); max-width: 400px; margin: auto;}
 #about{padding: 0 20px;}
