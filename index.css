@@ -59,3 +59,6 @@
 #instagram{border: 20px solid var(--gray3); background-color: var(--gray3); max-width: 400px; margin: auto;}
 #about{padding: 0 20px;}
 @media only screen and (max-width: 600px){#about {padding-bottom: 20px;}}
+#ig {
+    width: calc((100vw - 40px) / 2);
+    height: calc(((100vw - 40px) / 2));
