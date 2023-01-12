@@ -61,7 +61,7 @@
 @media only screen and (max-width: 600px){#about {padding-bottom: 20px;}}
 #igProfileButton {
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     width: 100%;
     text-align: center;
     font-size: 14px;
