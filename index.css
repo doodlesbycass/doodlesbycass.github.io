@@ -56,9 +56,24 @@
     #about{width:50%; max-width: 600px; margin: auto;}
     #section{display: flex; flex-direction: row;justify-content: space-evenly;}
 }
-#instagram{border: 20px solid var(--gray3); background-color: var(--gray3); max-width: 400px; margin: auto;}
+#instagram{border: 20px solid var(--gray3); background-color: var(--gray3); max-width: 400px; margin: auto; position: relative;}
 #about{padding: 0 20px;}
 @media only screen and (max-width: 600px){#about {padding-bottom: 20px;}}
-#ig {
-    width: calc((100vw - 40px) / 2);
-    height: calc(((100vw - 40px) / 2));
+#igProfileButton {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+}
+#igProfileButton a {
+    position: relative;
+    color: white;
+    font-weight: 600;
+    display: block;
+    background-color: var(--accent3);
+    border-radius: 4px;
+    padding: 5px 9px;
+    z-index: 1;
+}
