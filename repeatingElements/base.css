@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
 :root {
-    --bgimg: url("repeatingElements/background.jpg");
+    --bgimg: url("/repeatingElements/background.jpg");
     --gray1: #898989;
     --gray2: #bebebe;
     --gray3: #dddddd;
@@ -50,6 +50,18 @@ a:visited {color: var(--accent2);}
     body {margin:0;display: flex;flex-direction: column;min-height: 100vh;}
     
 /* Title */
+#pageTitle {
+    background: var(--bgimg) center/cover no-repeat;
+    text-align: center;
+}
+#pageTitle div{
+    background-color: rgba(113, 38, 38, .90);
+    color: white;
+    padding: var(--padCol);
+    text-shadow: 0 0 5px var(--accent3);
+    font-weight: 600;
+}
+#pageTitle h1{margin-top: 0;}
 .banner {display: flex; flex-direction: row; align-items: center; justify-content: center;}
 .banner h3{display: inline-block; flex: 0 0 auto;margin: 0; padding: 0 10px;}
 .banner div {
