@@ -4,7 +4,7 @@ document.write (`
         <div id="navIcon"><img id="navIcon" src="/repeatingElements/navIcon.svg" alt="navigation icon"></div>
         <div id="nav">
             <a href="/portfolio.html">Portfolio</a>
-            <a href="/about.html">About</a>
+            <a href="/shop.html">Shop</a>
         </div>
     </div>
     <script>
@@ -20,7 +20,7 @@ document.write (`
             var nav;
             nav = document.getElementById("nav");
             navIcon = document.getElementById("navIcon");
-            if (navIcon.style.display !== "inline-block") {nav.style.display = "block";}
+            if (navIcon.style.display === "none") {nav.style.display = "block";}
         }
     </script>
 `);
