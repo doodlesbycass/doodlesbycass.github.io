@@ -15,7 +15,11 @@
 @media only screen and (min-width: 400px) {#port div{grid-template-columns: auto auto auto}}
 
 /* SUPPORT SECTION */
-
+@media only screen and (min-width: 700px) {
+    #support > div{display: flex; flex-direction: row; align-items: stretch;}
+    #support > div > div{flex: 1 1 100%; align-self: stretch; display: flex; flex-direction: column;}
+    #support .linkButton{margin-top: auto;}
+}
 /* ABOUT & IG SECTION*/
 #aboutInsta{display: block;background: var(--gray3); padding: var(--padCol) 0;margin: 0 var(--padCol);}
 #about {margin-bottom: var(--padRow); width: 100%;padding: 0 var(--padCol); text-align: justify;}

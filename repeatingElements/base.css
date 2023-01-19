@@ -66,6 +66,7 @@ a:visited {color: var(--accent2);}
     }
     
     .colMargin {margin: 0 var(--padCol);}
+    .padCol {padding: 0 var(--padCol);}
     
 /* Title */
 #pageTitle {
