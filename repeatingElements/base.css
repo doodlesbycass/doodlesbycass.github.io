@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
 :root {
-    --bgimg: url('background.jpg');
+    --bgimg: url('/repeatingElements/background.jpg');
     --gray1: #898989;
     --gray2: #bebebe;
     --gray3: #dddddd;
