@@ -1,0 +1,17 @@
+#shopLower {
+    display: flex; flex-direction: column;
+}
+#contact{
+    padding: 0.01px var(--padCol);
+    background-color: var(--gray3);
+}
+@media only screen and (min-width: 700px) {
+    #main{
+        grid-template-columns: 50% 50%;
+    }
+    #pageTitle{grid-area: 1 / 1 / span 1 / span 2;}
+    #redbubble{grid-area: 2 / 1 / span 1 / span 2;}
+    #commissions{grid-area: 3 / 1 / span 1 / span 1;}
+    #digital{grid-area: 3 / 2 / span 1 / span 1;}
+    #contact{grid-area: 4 / 1 / span 1 / span 2; width: 50%; margin: auto;}
+}
