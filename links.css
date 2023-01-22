@@ -6,7 +6,7 @@ body{
 }
 #bg{
     padding: 15px;
-    background-color: rgba(113, 38, 38, .90);
+    background-color: rgba(113, 38, 38, .75);
     /*background-color: rgba(255,255,255,.85);*/
     width: 100%;
     min-height: calc(100vh - 10px);
@@ -26,7 +26,7 @@ a.linkPage {
     text-decoration: none;
     text-align: center;
     background-color: white;
-    border: 2px solid var(--accent2);
+    border: 2px solid var(--accent3);
     border-radius: 10px;
     display: block;
     width: 100%;
@@ -36,7 +36,7 @@ a.linkPage {
     font-weight: 600;
 }
 a.linkPage:hover {
-    border-color: var(--accent2);
+    border-color: var(--accent3);
     border-width: 5px;
     padding: 10px;
     font-weight: 700;
@@ -48,7 +48,7 @@ a.linkPage:hover {
     max-width: 800px;
     margin: 20px auto 20px auto;
     border-radius: 10px;
-    border: 2px solid var(--accent2);
+    border: 2px solid var(--accent3);
 }
 #comingSoon {
     background-color: rgba(255,255,255,.85);
