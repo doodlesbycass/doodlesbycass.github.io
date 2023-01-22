@@ -6,7 +6,7 @@ document.write (`
         </div>
         <div id="footerLinks">
             <div>
-                <a href="/index.html">Home</a> | <a href="/portfolio.html">Portfolio</a> | <a href="/shop.html">Shop</a>
+                <a href="/">Home</a> | <a href="/portfolio">Portfolio</a> | <a href="/shop">Shop</a>
             </div>
             <div>
                 <a href="https://www.instagram.com/doodles.by.cass/"><img src="/repeatingElements/instagramLogo.svg" alt="Instagram"></a>
