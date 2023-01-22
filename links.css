@@ -6,7 +6,7 @@ body{
 }
 #bg{
     padding: 15px;
-    background-color: rgba(113, 38, 38, .75);
+    background-color: rgba(113, 38, 38, .90);
     /*background-color: rgba(255,255,255,.85);*/
     width: 100%;
     min-height: calc(100vh - 10px);
