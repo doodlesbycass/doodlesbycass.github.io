@@ -10,6 +10,7 @@ document.write (`
             </div>
             <div>
                 <a href="https://www.instagram.com/doodles.by.cass/"><img src="/repeatingElements/instagramLogo.svg" alt="Instagram"></a>
+                <a href="https://www.pinterest.com/doodlesbycass/"><img src="/repeatingElements/pinIcon.svg" alt="Pinterest"></a>
                 <a href="mailto:doodles.by.cass@gmail.com"><img src="/repeatingElements/mailIcon.svg" alt="E-Mail"></a>
             </div>
         </div>
